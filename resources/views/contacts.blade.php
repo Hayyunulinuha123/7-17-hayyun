@@ -1,8 +1,9 @@
-@extends('layout.main')
+@extends('layouts.main')
 
 @section('container')
 <div class="title-top mb-5">
     <h2 class="fw-bold">Contact Us</h2>
+</div>
 <form>
   <div class="form-floating mb-3">
     <input type="text" class="form-control" id="inputname" placeholder="Nama">
@@ -18,3 +19,4 @@
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+@endsection
